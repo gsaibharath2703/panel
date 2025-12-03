@@ -1,0 +1,19 @@
+* text=auto eol=lf
+
+# Treat common web assets as text so diffs look good
+*.html text
+*.css text
+*.js text
+*.json text
+
+# Images are binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+
+# Ensure UTF-8 by default
+* charset=utf-8
+
+
